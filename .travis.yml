@@ -23,7 +23,7 @@ deploy:
       secure: $aws_secure_key
     bucket: "louis-test-codedeploy"
     key: latest.zip
-    application: §louis-codeploy-app
+    application: "louis-codeploy-app"
     deployment_group: master
     region: us-east-2
     on:
